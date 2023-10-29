@@ -1,26 +1,23 @@
 <?xml version='1.0' standalone='yes'?>
 <!DOCTYPE PLUGIN [
-<!ENTITY name       "composerize">
-<!ENTITY launch     "Settings/Composerize">
+<!ENTITY name       "template">
+<!ENTITY launch     "Settings/Template">
 <!ENTITY author     "llalon">
 <!ENTITY version "20231029">
 <!ENTITY branch "main">
 <!ENTITY file       "&name;-&version;.txz">
-<!ENTITY github     "llalon/unraid-plugin-composerize">
+<!ENTITY github     "llalon/unraid-plugin-template">
 <!ENTITY repo       "https://github.com/&github;">
 <!ENTITY releaseURL "https://raw.githubusercontent.com/&github;/&branch;">
 <!ENTITY pluginURL  "&releaseURL;/archive/&file;">
 <!ENTITY pluginURL  "&releaseURL;/plugin/&name;.plg">
-<!ENTITY md5 "9d08e6834ac5ce6a864a63b5c6e2276f">
+<!ENTITY md5 "5e9d784be4cbe66d55052c9acc217ee5">
 ]>
 
 <PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" support="&repo;">
 
 <CHANGES>
-### 2023.11.01
-- General enhancements and bug fixes
-- Moved composerize to client side.
-### 2022.08.01
+### 1970.01.01
 - Initial Release
 </CHANGES>
 
@@ -41,8 +38,6 @@ echo ""
 echo "----------------------------------------------------"
 echo " &name; has been installed."
 echo " Version: &version;"
-echo ""
-echo " This plugin required docker and docker compose plugins to be installed."
 echo "----------------------------------------------------"
 echo ""
 </INLINE>
